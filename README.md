@@ -1,6 +1,7 @@
 # Prueba técnica para AMS creada por Fernando Garcia Doval
 
 La prueba consiste en crear una aplicación web que implemente un servicio REST que sirva como intermediario con otro proveedor
+
 Los detalles y el enunciado de la prueba se pueden encontrar en https://github.com/dalogax/backendDevTest
 
 ## Tecnologías utilizadas
