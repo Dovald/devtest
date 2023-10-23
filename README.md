@@ -12,7 +12,7 @@ Los detalles y el enunciado de la prueba se pueden encontrar en https://github.c
 ## Forma de despliegue
 
 1. En *devtest/compose* se encuentra el docker-compose.yml que despliega toda la aplicacion, basta con ejecutar *docker compose up* en dicha ruta
-2. Para no depender de Postman o cualquier otro cliente REST he utilizado la dependencia *springdoc-openapi-starter-webmvc-ui* que te levanta en *http://localhost:5000/ams/swagger-ui/index.html* una interfaz gráfica para usar ambos endpoints
+2. Para no depender de Postman o cualquier otro cliente REST he utilizado la dependencia *springdoc-openapi-starter-webmvc-ui* que te levanta en *http://localhost:5000/ams/swagger-ui/index.html* una interfaz gráfica para usar el endpoint
 3. Si por el contrario se prefiere usar un cliente REST se puede atacar a http://localhost:5000/ams/product/{productId}/similar
 4. Para parar la aplicación simplemente parar el docker compose
 
