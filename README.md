@@ -19,7 +19,7 @@ Los detalles y el enunciado de la prueba se pueden encontrar en https://github.c
 ## Forma de testing
 
 1. Para esta prueba no he realizado tests dentro del proyecto, he entendido que no forma parte de la finalidad de la prueba y ya se dispone de un metodo de testeo con informe en grafana
-2. Ejecutar desde la carpeta *devtest/compose* docker-compose run --rm k6 run scripts/test.js 
+2. Ejecutar desde la carpeta *devtest/compose* el comando *docker-compose run --rm k6 run scripts/test.js*
 
 ## Explicación de las decisiones tomadas y aclaraciones
 
